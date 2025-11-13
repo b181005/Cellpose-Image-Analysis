@@ -1,0 +1,26 @@
+# --- General Python ---
+__pycache__/
+*.pyc
+*.pyd
+*.so
+venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints # Notebook auto-save files
+*.nbconvert.log
+
+# --- Cellpose / Image Analysis Outputs ---
+# Temporary/output files that can be recreated
+*_mask.npy
+*_seg.npy
+*_out.tif
+*_overlay.png
+*.tif.zip
+dat/
+results/
+
+# --- Operating System & IDE Files ---
+.DS_Store
+.idea/
+.vscode/
