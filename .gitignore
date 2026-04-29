@@ -24,3 +24,6 @@ results/
 .DS_Store
 .idea/
 .vscode/
+
+# --- Claude Worktrees ---
+.claude/worktrees

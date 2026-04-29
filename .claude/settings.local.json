@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -:*)",
+      "Bash(python -m nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 cellpose_tiff.ipynb --output cellpose_tiff_executed.ipynb)",
+      "Bash(python3:*)",
+      "Bash(grep -r \"C:/Users\" c:/Users/b1810/Desktop/coding/Cellpose-Image-Analysis/*.ipynb)",
+      "Bash(grep -r \"BASE_DIR\\\\|image_folder\\\\|directory\" c:/Users/b1810/Desktop/coding/Cellpose-Image-Analysis/Chris/Test/*.ipynb)"
+    ]
+  }
+}
